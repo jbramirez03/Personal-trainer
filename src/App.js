@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <>
-      Hello World
+      Personal Trainer
+      <h1>Testing</h1>
     </>
   );
 }
