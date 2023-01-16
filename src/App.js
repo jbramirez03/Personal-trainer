@@ -1,11 +1,10 @@
-
+import Hero from './components/Hero';
 import './App.css';
 
 function App() {
   return (
     <>
-      Personal Trainer
-      <h1>Testing</h1>
+      <Hero></Hero>
     </>
   );
 }
