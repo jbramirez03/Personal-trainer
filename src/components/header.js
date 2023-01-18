@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <header className={`header ${scrollState ? 'scroll-header' : ''}`} id="header">
             <nav className="nav container">
-                <a href="#" className="logo"
+                <a href="#" className="logo nav__logo"
                 >Trainer</a>
                 <div className={`nav__menu ${menuState ? ' show-menu' : ''}`} id="nav-menu">
                     <ul className="nav__list">

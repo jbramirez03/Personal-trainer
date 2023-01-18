@@ -183,13 +183,13 @@ button {
 }
 
 .scroll-header {
-  background-color: var(--body-color);
+  background-color: #fff;
   box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
 }
 
 .scroll-header .nav__logo,
 .scroll-header .nav__toggle {
-  color: var(--text-color);
+  color: var(--text-color-body);
 }
 
 .active-link {
@@ -279,4 +279,10 @@ button {
   font-size: var(--smaller-font-size);
 }
 
-/* add media query for short screens */
+.about__content {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+/* add media query for short screens, create spacing in welcome container between main heading title and info box */
