@@ -17,6 +17,7 @@ function App() {
           element={<>
             <Hero />
             <Header />
+            <About />
           </>}>
         </Route>
         <Route path='/testimonial' element={<Testimonials></Testimonials>}></Route>
