@@ -234,6 +234,9 @@ button {
 
 .welcome__container {
   margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .welcome__title {
@@ -251,14 +254,29 @@ button {
 
 .welcome__info {
   color: var(--text-color-home);
-  padding: 2rem 2rem;
+  padding: 1.75rem 1.75rem;
   background-color: rgb(0, 0, 0, 0.63);
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 2.25rem;
+  gap: 1.5rem;
   position: absolute;
   bottom: 0;
   right: 0;
 }
+
+.info__box {
+  border: 1px solid rgb(206, 200, 200, 88%);
+  padding: 0.5rem;
+}
+
+.info__box h3 {
+  font-size: var(--normal-font-size);
+}
+
+.info__box p {
+  font-size: var(--smaller-font-size);
+}
+
+/* add media query for short screens */
