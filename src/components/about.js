@@ -9,8 +9,8 @@ const About = () => {
             <div className="about__content">
 
                 <div className="about__information">
-                    <h3 className='about__title'>About Our Mission...</h3>
-                    <p className="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    <h3>About Our Mission...</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.              </p>
                 </div>
                 <img className='about__image' src={aboutImg} alt="Guy flexing abs" />

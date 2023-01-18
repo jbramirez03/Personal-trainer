@@ -285,4 +285,22 @@ button {
   justify-content: center;
 }
 
+.about__information {
+  padding: 1rem;
+}
+
+.about__information h3 {
+  font-size: 1.5em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about__information p {
+  line-height: 1.75rem;
+  overflow-wrap: break-word;
+  inline-size: 100%;
+  text-align: center;
+}
+
 /* add media query for short screens, create spacing in welcome container between main heading title and info box */
