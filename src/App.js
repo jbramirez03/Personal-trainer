@@ -18,6 +18,7 @@ function App() {
             <Hero />
             <Header />
             <About />
+            <Services />
           </>}>
         </Route>
         <Route path='/testimonial' element={<Testimonials></Testimonials>}></Route>
