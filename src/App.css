@@ -95,6 +95,7 @@ button {
   left: 0;
   z-index: var(--z-fixed);
   background-color: transparent;
+  padding-top: 1rem;
 }
 
 .section__title {
@@ -216,7 +217,8 @@ button {
   flex-direction: row;
   height: 100vh;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 2.5rem;
 }
 
 .hero__img {
@@ -228,4 +230,21 @@ button {
   object-fit: cover;
   object-position: center;
   z-index: -1;
+}
+
+.welcome__container {
+  margin-top: 4rem;
+}
+
+.welcome__title {
+  margin-bottom: 1rem;
+}
+
+.welcome__subtitle {
+  font-weight: var(--font-medium);
+}
+
+.welcome__title,
+.welcome__subtitle {
+  color: var(--text-color-home);
 }

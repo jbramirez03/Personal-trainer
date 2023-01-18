@@ -13,7 +13,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<><Hero /> <Header /></>}>
+        <Route path='/'
+          element={<>
+            <Hero />
+            <Header />
+          </>}>
         </Route>
         <Route path='/testimonial' element={<Testimonials></Testimonials>}></Route>
       </Routes>
