@@ -248,3 +248,17 @@ button {
 .welcome__subtitle {
   color: var(--text-color-home);
 }
+
+.welcome__info {
+  color: var(--text-color-home);
+  padding: 2rem 2rem;
+  background-color: rgb(0, 0, 0, 0.63);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2.25rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
