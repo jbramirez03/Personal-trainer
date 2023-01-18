@@ -3,7 +3,7 @@ import heroImg from '../images/deadlift.jpeg';
 import Home from './Home';
 
 
-const hero = () => {
+const Hero = () => {
     return (
         <div className='hero'>
             <img src={heroImg} alt="Deadlift barbell" className='hero__img' />
@@ -12,4 +12,4 @@ const hero = () => {
     )
 }
 
-export default hero
+export default Hero
