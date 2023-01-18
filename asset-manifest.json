@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/personal-trainer/static/css/main.a7dae42a.css",
-    "main.js": "/personal-trainer/static/js/main.a4f4fe31.js",
+    "main.css": "/personal-trainer/static/css/main.ebf6ae61.css",
+    "main.js": "/personal-trainer/static/js/main.a000f29c.js",
     "static/media/deadlift.jpeg": "/personal-trainer/static/media/deadlift.f0700026f961f449ea46.jpeg",
     "index.html": "/personal-trainer/index.html",
-    "main.a7dae42a.css.map": "/personal-trainer/static/css/main.a7dae42a.css.map",
-    "main.a4f4fe31.js.map": "/personal-trainer/static/js/main.a4f4fe31.js.map"
+    "main.ebf6ae61.css.map": "/personal-trainer/static/css/main.ebf6ae61.css.map",
+    "main.a000f29c.js.map": "/personal-trainer/static/js/main.a000f29c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7dae42a.css",
-    "static/js/main.a4f4fe31.js"
+    "static/css/main.ebf6ae61.css",
+    "static/js/main.a000f29c.js"
   ]
 }
