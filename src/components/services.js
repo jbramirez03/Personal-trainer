@@ -10,6 +10,38 @@ const Services = () => {
         <section id='services' className='container section services__section'>
             <h2 className="section__title section__title-center">Services</h2>
 
+            <div className="services__images">
+                <div className="img__block">
+                    <img src={service1} alt="training service" />
+                    <div className="text__box">
+                        <p></p>
+                    </div>
+                </div>
+                <div className="img__block">
+                    <img src={service2} alt="training service" />
+                    <div className="text__box">
+                        <p></p>
+                    </div>
+                </div>
+                <div className="img__block">
+                    <img src={service3} alt="training service" />
+                    <div className="text__box">
+                        <p></p>
+                    </div>
+                </div>
+                <div className="img__block">
+                    <img src={service4} alt="training service" />
+                    <div className="text__box">
+                        <p></p>
+                    </div>
+                </div>
+                <div className="img__block">
+                    <img src={service5} alt="training service" />
+                    <div className="text__box">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
